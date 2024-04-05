@@ -7,7 +7,7 @@ module.exports = async function (deployer) {
 
     const [executor, proposer, voter1, voter2, voter3, voter4, voter5] = await web3.eth.getAccounts()
 
-    const name = "DApp University"
+    const name = "Treasury DAO"
     const symbol = "DAPPU"
     const supply = web3.utils.toWei('1000', 'ether') // 1000 Tokens
 
